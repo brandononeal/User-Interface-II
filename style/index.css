@@ -83,7 +83,7 @@ h2, p {
     background-size: cover;
     background-position: center;
     height: 30vh;
-    width: 80%;
+    width: 52%;
     margin-bottom: .5%;
 }
 
@@ -110,3 +110,4 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
