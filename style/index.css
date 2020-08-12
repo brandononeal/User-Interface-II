@@ -114,14 +114,20 @@ footer {
 /* 800PX */
 
 @media (max-width: 800px) {
-    
+    img {
+        width: 45%;
+    }
+    .laptop-img {
+        width: 85%;
+        text-align: center;
+    }
     .section2 {
         flex-flow: wrap;
-        width: 52%;
+        width: 75%;
+        text-align: center;
         margin: 0 auto;
     }
     .section2-images {
-        margin-left: 6px;
         order: 1;
     }
     .section2-text p {
@@ -158,12 +164,14 @@ footer {
     }
     .laptop-img {
         width: 90%;
+        text-align: center;
     }
     .section2 {
         width: 90%;
         margin: 0 auto;
+        text-align: center;
     }
     .section2-images {
-        margin-left: 5.2%;
+        margin: 0 auto;
     }
 }
