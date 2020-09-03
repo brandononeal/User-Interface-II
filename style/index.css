@@ -79,11 +79,11 @@ h2, p {
 }
 
 .laptop-img {
-    background-image: url(/photos/laptop.jpg);
+    background-image: url(../photos/laptop.jpg);
     background-size: cover;
     background-position: center;
     height: 30vh;
-    width: 80%;
+    width: 52%;
     margin-bottom: .5%;
 }
 
@@ -109,4 +109,69 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* 800PX */
+
+@media (max-width: 800px) {
+    img {
+        width: 45%;
+    }
+    .laptop-img {
+        width: 85%;
+        text-align: center;
+    }
+    .section2 {
+        flex-flow: wrap;
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section2-images {
+        order: 1;
+    }
+    .section2-text p {
+        margin-top: 7%;
+        margin-bottom: 6%;
+    }
+}
+
+/* 500PX */
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 35%;
+    }
+    nav a {
+        display: flex;
+        justify-content: center;
+    }
+    .subheading {
+        margin-top: 2%;
+    }
+    .header-text {
+        margin-bottom: 2%;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    header p {
+        width: 45%;
+        margin: 0 auto;
+    }
+    .laptop-img {
+        width: 90%;
+        text-align: center;
+    }
+    .section2 {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section2-images {
+        margin: 0 auto;
+    }
 }
